@@ -13,7 +13,7 @@ export default function Projects({projects}) {
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
         <Head>
-          <title>준짱 포트폴리오</title>
+          <title>Shooting Star</title>
           <meta name="description" content="과거 내 발자취를 담는다." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -22,7 +22,7 @@ export default function Projects({projects}) {
           <span className="pl-4 text-blue-500">{projects.results.length}</span>
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 py-10 m-6 gap-8 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 py-10 m-6 gap-8 w-full">
           {projects.results.map((aProject) => (
             // <h1>{aProject.properties.Name.title[0].plain_text}</h1>
           <ProjectItem key={aProject.id} data={aProject}/>
