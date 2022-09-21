@@ -13,7 +13,7 @@ export default function Projects({projects}) {
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
         <Head>
-          <title>Shooting Star</title>
+          <title>projects</title>
           <meta name="description" content="과거 내 발자취를 담는다." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
