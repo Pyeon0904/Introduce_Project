@@ -2,6 +2,8 @@
   "name": "introduce_project",
   "version": "0.1.0",
   "private": true,
+  "author": "pyeon",
+  "license": "Proj",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
